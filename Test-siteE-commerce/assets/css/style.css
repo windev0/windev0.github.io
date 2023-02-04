@@ -1,0 +1,144 @@
+/* ------------------------------------------------- */
+/* ---------------------------------- */
+body{
+    background-color: rgb(33, 28, 28);
+    width: 100%;
+    margin:auto;
+
+}
+/* ---------------------------------- */
+header{
+    background-color: antiquewhite;
+    background: url('images/R.jfif');
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* ---------------------------------- */
+main{
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    padding: 12px;
+}
+/* ---------------------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    background-color: white;
+    color: black;
+}
+input{ margin: 30px; border-radius: 2px;}
+footer input:focus{
+   outline: 4px rgb(37, 37, 146) solid;
+   border: none;
+}
+footer a{
+    color: black;
+}
+/* ---------------------------------- */
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: steelblue;
+    outline: 2px solid steelblue;
+}
+a:hover{
+    outline: 4px solid steelblue;
+    outline-offset: 3px solid red;
+    transition: ease-in-out 190ms;
+}
+/* ---------------------------------- */
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* ------------------------------------------------- */
+
+/* partie navigation */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+/* liens de navigation*/
+.item{
+    font-weight: bold;
+    margin: 15px;
+    padding: 3px;
+    font-size: 18px;
+    font-family: cursive;
+}
+/* ------------------------------------------------- */
+
+#logo-site{
+    position: absolute;
+    margin: 10px;
+    top: 25px;
+}
+.img_logo{
+    width: 80px;
+    height: 70px;
+}
+/* ------------------------------------------------- */
+
+/* Texte de bienvenue */
+.text-of-welcome{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    
+}
+.welcome{
+    font-size: 72px;
+}
+/* ------------------------------------------------- */
+
+/* Les articles */
+main .descrip-pr{
+  margin: 0px;
+  padding: 10px;
+}
+/* ------------------------------------------- */
+.ligne{
+    background-color: antiquewhite;
+    display:flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+    padding: 2px;
+}
+
+/* ligne 1, 2, 3, 4 */
+.l1-pr, .l2-pr, .l3-pr, .l4-pr{
+    height: 100%;
+    width: 100%;
+}
+.pr{
+    position: relative;
+    background-color: rgb(24, 19, 49);
+    color: white;
+    width: 100%;
+    height: 200px;
+    top: 4px;
+    margin-left: 9px;
+    border: 3px solid rgb(24, 19, 49);;
+}
+
+/* ------------------------------------------------- */
+.formulaire{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+    padding: 2px;
+}
